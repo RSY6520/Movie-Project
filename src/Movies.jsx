@@ -32,12 +32,12 @@ export default class Movies extends React.Component {
             const reg = new RegExp(this.state.searchData, 'gi');
             return reg.test(movie.Title) || reg.test(movie.Director) || reg.test(movie.Genre) || reg.test(movie.Actors) || reg.test(movie.Plot)
         })
-        return (<>
+        return (<div className='main-container'>
             <div className='search-sort-container'>
             <SearchBox handleSearch={this.handleSearch}/> 
             <SortBox handleSort={this.handleSort}/>
             </div>     
             <MovieList data={filteredMovies}/>
-        </>)
+        </div>)
     }
 }

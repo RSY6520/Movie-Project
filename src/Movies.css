@@ -1,3 +1,16 @@
+@media screen and (max-width: 800){
+  .search {
+    width: 280px;
+  }
+  .sort {
+    width: 280px;
+  }
+  .main-container {
+    overflow: auto;
+  }
+}
+
+
 .search {
     width: 400px;
     height: 20px;

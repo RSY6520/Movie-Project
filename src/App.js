@@ -1,10 +1,11 @@
 import React from 'react'
-import Movies from './Movies'
+import Covid19ReportStatewise from './Covid19ReportStatewise'
+
 
 export default function App() {
   return (
     <div>
-      <Movies/>
+      <Covid19ReportStatewise/>
     </div>
   )
 }

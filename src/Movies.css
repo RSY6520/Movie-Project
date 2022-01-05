@@ -1,14 +1,15 @@
 .search {
-    width: 300px;
+    width: 400px;
     height: 20px;
+    margin-bottom: 10px;
   }
   .sort {
-    width: 308px;
+    width: 400px;
     height: 25px;
   }
   .search-sort-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
   }
